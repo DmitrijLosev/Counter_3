@@ -4,7 +4,6 @@ import {Button} from "./Button";
 import {useDispatch, useSelector} from "react-redux";
 import {Dispatch} from "redux";
 import {actions, CounterActionsType, CounterStateType} from "./redux/counter-reducer";
-import {RootStateType} from "./redux/store";
 import {MinMaxType} from "./App";
 
 export const CounterShowMode: React.FC<{ errorMode: boolean }> = ({errorMode}) => {
